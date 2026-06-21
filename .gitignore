@@ -1,0 +1,29 @@
+# Secrets / environment
+.env
+.env.*
+.db_secret
+db_password.txt
+config.json
+client/config.json
+
+# Dependencies / build output
+node_modules/
+dist/
+out/
+*.zip
+
+# Logs / OS / editor
+*.log
+logs/
+.DS_Store
+Thumbs.db
+.clean_shutdown
+*.backup
+
+# Not part of this repository
+server/
+docs/
+
+# Only README is published; ignore all other markdown
+*.md
+!README.md

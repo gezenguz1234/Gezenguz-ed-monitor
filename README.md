@@ -44,6 +44,8 @@ Elite Dangerous companion app — multi-commander journal tracking, exploration,
 
 > Use `start_client_debug.bat` instead if something goes wrong: it keeps the console open, shows errors, and pauses if the client crashes.
 
+> **Antivirus note:** some antivirus software (e.g. Avast) may falsely flag and quarantine `electron.exe`, which the client needs to run. If startup reports that `node_modules\electron\dist\electron.exe` is missing, restore `electron.exe` from your antivirus quarantine, add a folder exclusion for the app, and run `install.bat` again.
+
 **First run:**
 1. Enter your Commander name
 2. Select your journal folder (auto-detected on most systems)

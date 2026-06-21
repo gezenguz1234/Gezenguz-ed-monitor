@@ -51,6 +51,14 @@ Elite Dangerous companion app — multi-commander journal tracking, exploration,
 
 ---
 
+## Community & Feedback
+
+Questions, ideas, or bug reports? Join the Discord — that's the best place to reach me:
+
+**[discord.gg/JhhfkQgPS](https://discord.gg/JhhfkQgPS)**
+
+---
+
 ## License
 
 © 2026 GEZENGUZ. All rights reserved.

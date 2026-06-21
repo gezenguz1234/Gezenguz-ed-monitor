@@ -38,24 +38,40 @@ Elite Dangerous companion app — multi-commander journal tracking, exploration,
 
 ## Installation
 
+There are **two download packages** on the Releases page — pick one:
+
+| Package | Size | Use when |
+|---|---|---|
+| **`gezenguz-ed-monitor-client.zip`** (Standard) | small | The normal case. Runs `install.bat`, which downloads the Electron engine. |
+| **`gezenguz-ed-monitor-client-full.zip`** (Full / antivirus-friendly) | ~110 MB | Your antivirus (e.g. Avast) blocks the Electron download. Everything is bundled — **no download, no `install.bat`**. |
+
+### Standard package
+
 1. Download and extract the latest release
 2. Run `install.bat`
 3. Run `start_client_normal.bat` — launches the client; the console window closes after startup
 
 > Use `start_client_debug.bat` instead if something goes wrong: it keeps the console open, shows errors, and pauses if the client crashes.
 
-### Antivirus (Avast and others)
+### Full / antivirus-friendly package
 
-Some antivirus software — Avast in particular — **falsely flags `electron.exe`** (the engine the client runs on) and **blocks it while it downloads**, before it ever reaches the app folder. If `install.bat` or a launcher reports that `node_modules\electron\dist\electron.exe` is missing, do this:
+Use this if your antivirus blocks `electron.exe`. Nothing is downloaded, so there is no download for the antivirus to block.
 
-1. **Add a folder exclusion** for the app folder in your antivirus.
-   *(Avast: Menu → Settings → General → Exceptions → Add, then pick the folder where `install.bat` is.)*
-2. **Temporarily turn off the antivirus shields for 10 minutes.**
-   *(Avast: right-click the Avast icon in the system tray → Avast shields control → Disable for 10 minutes.)*
-3. **Run `install.bat` again** — the download goes through this time.
-4. When it finishes, the shields turn back on by themselves. The file is now inside the excluded folder, so it stays safe.
+1. Create a new empty folder for the app
+2. **Add that folder to your antivirus exclusions** *(Avast: Menu → Settings → General → Exceptions → Add)*
+3. **Extract** `gezenguz-ed-monitor-client-full.zip` into the folder — the Electron engine lands directly in the already-excluded folder, so it stays safe
+4. Run `start_client_normal.bat` — no `install.bat` needed
 
-> A folder exclusion **alone is not enough** — the file is blocked during download, so you also need step 2. If it still fails, additionally exclude the download cache folder `%LOCALAPPDATA%\electron\Cache`.
+### Antivirus (Avast and others) — Standard package only
+
+If you use the **Standard** package and your antivirus blocks the download (`install.bat` reports `node_modules\electron\dist\electron.exe` is missing):
+
+1. **Add a folder exclusion** for the app folder *(Avast: Menu → Settings → General → Exceptions → Add)*
+2. **Temporarily turn off the antivirus shields for 10 minutes** *(Avast: right-click the tray icon → Avast shields control → Disable for 10 minutes)*
+3. **Run `install.bat` again** — the download goes through this time
+4. When it finishes, the shields turn back on by themselves; the file is now in the excluded folder, so it stays safe
+
+> A folder exclusion **alone is not enough** — the file is blocked during download, so you also need step 2. If it still fails, additionally exclude the cache folder `%LOCALAPPDATA%\electron\Cache`. **Or just use the Full package above** and skip all of this.
 
 **First run:**
 1. Enter your Commander name

@@ -22,7 +22,9 @@ Elite Dangerous companion app — multi-commander journal tracking, exploration,
 - **HGE sightings** — high-grade emission logging by material
 - **Market prices** — commodity tracking across stations
 - **Overlay** — in-game HUD overlay with live data
-- **Friends** — add other commanders by name; send/accept friend requests
+- **Friends** — find other commanders by name, send/accept friend requests
+- **Colonisation** — track your construction projects (system, station, progress, remaining commodities); share projects with friends and see theirs in a focus panel
+- **Colonisation helper / reservations** — reserve a quantity of a commodity for a friend's build so they get notified that you're bringing it ("X is helping with N units"); reservations are pure coordination and never alter the official remaining amount
 - **CAPI** — Frontier API integration (token management in Settings)
 
 ---

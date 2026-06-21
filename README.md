@@ -44,7 +44,18 @@ Elite Dangerous companion app — multi-commander journal tracking, exploration,
 
 > Use `start_client_debug.bat` instead if something goes wrong: it keeps the console open, shows errors, and pauses if the client crashes.
 
-> **Antivirus note:** some antivirus software (e.g. Avast) may falsely flag and quarantine `electron.exe`, which the client needs to run. If startup reports that `node_modules\electron\dist\electron.exe` is missing, restore `electron.exe` from your antivirus quarantine, add a folder exclusion for the app, and run `install.bat` again.
+### Antivirus (Avast and others)
+
+Some antivirus software — Avast in particular — **falsely flags `electron.exe`** (the engine the client runs on) and **blocks it while it downloads**, before it ever reaches the app folder. If `install.bat` or a launcher reports that `node_modules\electron\dist\electron.exe` is missing, do this:
+
+1. **Add a folder exclusion** for the app folder in your antivirus.
+   *(Avast: Menu → Settings → General → Exceptions → Add, then pick the folder where `install.bat` is.)*
+2. **Temporarily turn off the antivirus shields for 10 minutes.**
+   *(Avast: right-click the Avast icon in the system tray → Avast shields control → Disable for 10 minutes.)*
+3. **Run `install.bat` again** — the download goes through this time.
+4. When it finishes, the shields turn back on by themselves. The file is now inside the excluded folder, so it stays safe.
+
+> A folder exclusion **alone is not enough** — the file is blocked during download, so you also need step 2. If it still fails, additionally exclude the download cache folder `%LOCALAPPDATA%\electron\Cache`.
 
 **First run:**
 1. Enter your Commander name

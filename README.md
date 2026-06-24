@@ -1,8 +1,8 @@
-# Gezenguz ED Monitor v1.1
+# Gezenguz ED Monitor v1.2
 
 Elite Dangerous companion app — multi-commander journal tracking, exploration, nav route, leaderboards, and more.
 
-[![Version](https://img.shields.io/badge/version-1.1-orange.svg)](https://github.com/gezenguz/gezenguz-ed-monitor)
+[![Version](https://img.shields.io/badge/version-1.2-orange.svg)](https://github.com/gezenguz/gezenguz-ed-monitor)
 [![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red.svg)]()
 
 ---
@@ -15,6 +15,7 @@ Elite Dangerous companion app — multi-commander journal tracking, exploration,
 - **Nav route** — next systems in route with scoopable star indicators
 - **Mining tracker** — prospector feed, session totals, hotspot data
 - **Engineering** — material tracking, blueprint planner
+- **Loadout** — Odyssey suit & weapon planner with per-grade stats and modification effects
 - **Materials "Where to find"** — click any material for its sources, plus crystalline shard / brain tree systems
 - **Leaderboards** — 38+ categories across all commanders
 - **Powerplay** — rank/merit tracking with tier-based perk calculator
@@ -31,47 +32,21 @@ Elite Dangerous companion app — multi-commander journal tracking, exploration,
 
 ## Requirements
 
-- **Node.js 18+** — [Download](https://nodejs.org)
-- **Elite Dangerous** (PC, journal files enabled)
+- **Windows** (PC)
+- **Elite Dangerous** with journal files enabled
 
 ---
 
 ## Installation
 
-There are **two download packages** on the Releases page — pick one:
-
-| Package | Size | Use when |
-|---|---|---|
-| **`gezenguz-ed-monitor-client.zip`** (Standard) | small | The normal case. Runs `install.bat`, which downloads the Electron engine. |
-| **`gezenguz-ed-monitor-client-full.zip`** (Full / antivirus-friendly) | ~110 MB | Your antivirus (e.g. Avast) blocks the Electron download. Everything is bundled — **no download, no `install.bat`**. |
-
-### Standard package
-
-1. Download and extract the latest release
-2. Run `install.bat`
-3. Run `start_client_normal.bat` — launches the client; the console window closes after startup
-
-> Use `start_client_debug.bat` instead if something goes wrong: it keeps the console open, shows errors, and pauses if the client crashes.
-
-### Full / antivirus-friendly package
-
-Use this if your antivirus blocks `electron.exe`. Nothing is downloaded, so there is no download for the antivirus to block.
+Download **`gezenguz-ed-monitor-client-full.zip`** from the [Releases](https://github.com/gezenguz1234/Gezenguz-ed-monitor/releases) page. Everything — including the Electron engine — is bundled, so there is no separate download and no `install.bat`.
 
 1. Create a new empty folder for the app
-2. **Add that folder to your antivirus exclusions** *(Avast: Menu → Settings → General → Exceptions → Add)*
-3. **Extract** `gezenguz-ed-monitor-client-full.zip` into the folder — the Electron engine lands directly in the already-excluded folder, so it stays safe
-4. Run `start_client_normal.bat` — no `install.bat` needed
+2. **Add that folder to your antivirus exclusions** *(Avast: Menu → Settings → General → Exceptions → Add)* — some antivirus tools flag the bundled `electron.exe`
+3. **Extract** the zip into the folder
+4. Run `start_client_normal.bat`
 
-### Antivirus (Avast and others) — Standard package only
-
-If you use the **Standard** package and your antivirus blocks the download (`install.bat` reports `node_modules\electron\dist\electron.exe` is missing):
-
-1. **Add a folder exclusion** for the app folder *(Avast: Menu → Settings → General → Exceptions → Add)*
-2. **Temporarily turn off the antivirus shields for 10 minutes** *(Avast: right-click the tray icon → Avast shields control → Disable for 10 minutes)*
-3. **Run `install.bat` again** — the download goes through this time
-4. When it finishes, the shields turn back on by themselves; the file is now in the excluded folder, so it stays safe
-
-> A folder exclusion **alone is not enough** — the file is blocked during download, so you also need step 2. If it still fails, additionally exclude the cache folder `%LOCALAPPDATA%\electron\Cache`. **Or just use the Full package above** and skip all of this.
+> Use `start_client_debug.bat` instead if something goes wrong: it keeps the console open and shows errors.
 
 **First run:**
 1. Enter your Commander name

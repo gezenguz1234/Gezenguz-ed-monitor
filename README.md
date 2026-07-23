@@ -1,8 +1,8 @@
-# Gezenguz ED Monitor v1.4
+# Gezenguz ED Monitor v1.5
 
 Elite Dangerous companion app — multi-commander journal tracking, exploration, nav route, leaderboards, and more.
 
-[![Version](https://img.shields.io/badge/version-1.4-orange.svg)](https://github.com/gezenguz/gezenguz-ed-monitor)
+[![Version](https://img.shields.io/badge/version-1.5-orange.svg)](https://github.com/gezenguz/gezenguz-ed-monitor)
 [![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red.svg)]()
 
 ---
@@ -27,6 +27,7 @@ Elite Dangerous companion app — multi-commander journal tracking, exploration,
 - **Colonisation** — track your construction projects (system, station, progress, remaining commodities); share projects with friends and see theirs in a focus panel
 - **Colonisation helper / reservations** — reserve a quantity of a commodity for a friend's build so they get notified that you're bringing it ("X is helping with N units"); reservations are pure coordination and never alter the official remaining amount
 - **CAPI** — Frontier API integration; signing in is required to use the app (token management in Settings)
+- **Background running** — optionally start with Windows and minimize to the system tray, so the client keeps monitoring quietly in the background
 
 ---
 

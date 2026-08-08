@@ -1,8 +1,8 @@
-# Gezenguz ED Monitor v1.5
+# Gezenguz ED Monitor v1.6
 
 Elite Dangerous companion app — multi-commander journal tracking, exploration, nav route, leaderboards, and more.
 
-[![Version](https://img.shields.io/badge/version-1.5-orange.svg)](https://github.com/gezenguz/gezenguz-ed-monitor)
+[![Version](https://img.shields.io/badge/version-1.6-orange.svg)](https://github.com/gezenguz/gezenguz-ed-monitor)
 [![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red.svg)]()
 
 ---
@@ -22,8 +22,9 @@ Elite Dangerous companion app — multi-commander journal tracking, exploration,
 - **Community Goals** — progress tracking per commander
 - **HGE sightings** — high-grade emission logging by material
 - **Market prices & trade routes** — commodity tracking across stations, best profit routes, and high-demand goods
-- **Overlay** — in-game HUD overlay with live data, including an on-foot exobiology sampling assistant (live clonal-colony distance meter while collecting samples)
+- **Overlay** — in-game HUD overlay with live data, including an on-foot exobiology sampling assistant (live clonal-colony distance meter while collecting samples); click-through when it isn't the active window, so it never steals the cursor or your clicks from the game
 - **Friends** — find other commanders by name, send/accept friend requests
+- **Avatar** — set a small profile picture shown next to your name (on the main screen and in Friends), visible to everyone after approval
 - **Colonisation** — track your construction projects (system, station, progress, remaining commodities); share projects with friends and see theirs in a focus panel
 - **Colonisation helper / reservations** — reserve a quantity of a commodity for a friend's build so they get notified that you're bringing it ("X is helping with N units"); reservations are pure coordination and never alter the official remaining amount
 - **CAPI** — Frontier API integration; signing in is required to use the app (token management in Settings)
@@ -42,10 +43,9 @@ Elite Dangerous companion app — multi-commander journal tracking, exploration,
 
 Download **`gezenguz-ed-monitor-client-full.zip`** from the [Releases](https://github.com/gezenguz1234/Gezenguz-ed-monitor/releases) page. Everything — including the Electron engine — is bundled, so there is no separate download and no `install.bat`.
 
-1. Create a new empty folder for the app
+1. **Extract** the zip anywhere — it creates a `Gezenguz-Ed-Monitor` folder (you no longer need to make one yourself)
 2. **Add that folder to your antivirus exclusions** *(Avast: Menu → Settings → General → Exceptions → Add)* — some antivirus tools flag the bundled `electron.exe`
-3. **Extract** the zip into the folder
-4. Run `start_client_normal.bat`
+3. Run `start_client_normal.bat`
 
 > Use `start_client_debug.bat` instead if something goes wrong: it keeps the console open and shows errors.
 

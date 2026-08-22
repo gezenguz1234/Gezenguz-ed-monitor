@@ -1,8 +1,8 @@
-# Gezenguz ED Monitor v1.6
+# Gezenguz ED Monitor v1.7
 
 Elite Dangerous companion app — multi-commander journal tracking, exploration, nav route, leaderboards, and more.
 
-[![Version](https://img.shields.io/badge/version-1.6-orange.svg)](https://github.com/gezenguz/gezenguz-ed-monitor)
+[![Version](https://img.shields.io/badge/version-1.7-orange.svg)](https://github.com/gezenguz/gezenguz-ed-monitor)
 [![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red.svg)]()
 
 ---
@@ -14,9 +14,11 @@ Elite Dangerous companion app — multi-commander journal tracking, exploration,
 - **Exploration tracking** — high-value body detection, exobiology, FSS/DSS data
 - **Nav route** — next systems in route with scoopable star indicators
 - **Mining tracker** — prospector feed, session totals, hotspot data
-- **Engineering** — material tracking, blueprint planner
+- **Outfitting** — ship engineering planner: per-module material and engineer requirements, with one-click export to EDSY
+- **Tech Broker** — module calculator: pick Human/Guardian tech-broker modules and see the total material cost against your current stock, plus the nearest brokers to unlock them
 - **Loadout** — Odyssey suit & weapon planner with per-grade stats and modification effects
 - **Materials "Where to find"** — click any material for its sources, plus crystalline shard / brain tree systems
+- **Material watch** — the overlay can show which materials you still need for a saved outfitting or loadout plan (or a custom list), updating live as you collect
 - **Leaderboards** — 38+ categories across all commanders
 - **Powerplay** — rank/merit tracking with tier-based perk calculator
 - **Community Goals** — progress tracking per commander
@@ -29,6 +31,7 @@ Elite Dangerous companion app — multi-commander journal tracking, exploration,
 - **Colonisation helper / reservations** — reserve a quantity of a commodity for a friend's build so they get notified that you're bringing it ("X is helping with N units"); reservations are pure coordination and never alter the official remaining amount
 - **CAPI** — Frontier API integration; signing in is required to use the app (token management in Settings)
 - **Background running** — optionally start with Windows and minimize to the system tray, so the client keeps monitoring quietly in the background
+- **Data consent & privacy** — a clear first-run notice explains what the app reads (your game journal files) and what it shares with the community, and what it never touches (passwords or sign-in details); you can request deletion of your personal data from Settings
 
 ---
 

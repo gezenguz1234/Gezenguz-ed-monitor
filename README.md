@@ -7,6 +7,15 @@ Elite Dangerous companion app — multi-commander journal tracking, exploration,
 
 ---
 
+> **Notice — planned downtime (maintenance & server relocation)**
+>
+> The service will be offline for approximately one week for scheduled
+> maintenance and a server relocation. During this time the client cannot
+> connect and no data will sync. Expected back online on **Saturday,
+> 5 September 2026**. Thank you for your patience.
+
+---
+
 ## Features
 
 - **Real-time journal monitoring** — automatic detection and processing of Elite Dangerous journal files

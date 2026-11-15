@@ -9,6 +9,7 @@ client/config.json
 # Dependencies / build output
 node_modules/
 dist/
+release/
 out/
 *.zip
 

@@ -1,8 +1,8 @@
-# Gezenguz ED Monitor v1.7
+# Gezenguz ED Monitor v1.8
 
 Elite Dangerous companion app — multi-commander journal tracking, exploration, nav route, leaderboards, and more.
 
-[![Version](https://img.shields.io/badge/version-1.7-orange.svg)](https://github.com/gezenguz/gezenguz-ed-monitor)
+[![Version](https://img.shields.io/badge/version-1.8-orange.svg)](https://github.com/gezenguz/gezenguz-ed-monitor)
 [![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red.svg)]()
 
 ---
@@ -14,22 +14,23 @@ Elite Dangerous companion app — multi-commander journal tracking, exploration,
 - **Exploration tracking** — high-value body detection, exobiology, FSS/DSS data
 - **Nav route** — next systems in route with scoopable star indicators
 - **Mining tracker** — prospector feed, session totals, hotspot data
-- **Outfitting** — ship engineering planner: per-module material and engineer requirements, with one-click export to EDSY
-- **Tech Broker** — module calculator: pick Human/Guardian tech-broker modules and see the total material cost against your current stock, plus the nearest brokers to unlock them
+- **Outfitting** — ship engineering planner: per-module material and engineer requirements (including Merc Coin modifications and their Merc coin cost), with one-click export to EDSY
+- **Tech Broker** — module calculator: pick Human/Guardian tech-broker modules and see the total material cost against your current stock, plus the nearest brokers to unlock them; modules you have already unlocked are marked and left out of the requirement
 - **Loadout** — Odyssey suit & weapon planner with per-grade stats and modification effects
 - **Materials "Where to find"** — click any material for its sources, plus crystalline shard / brain tree systems
 - **Material watch** — the overlay can show which materials you still need for a saved outfitting or loadout plan (or a custom list), updating live as you collect
-- **Leaderboards** — 38+ categories across all commanders
+- **Leaderboards** — 38+ categories across all commanders; if you are not in the top 10, your own rank and the gap to the top 10 are shown
 - **Powerplay** — rank/merit tracking with tier-based perk calculator
 - **Community Goals** — progress tracking per commander
 - **HGE sightings** — high-grade emission logging by material
 - **Market prices & trade routes** — commodity tracking across stations, best profit routes, and high-demand goods
-- **Overlay** — in-game HUD overlay with live data, including an on-foot exobiology sampling assistant (live clonal-colony distance meter while collecting samples); click-through when it isn't the active window, so it never steals the cursor or your clicks from the game
+- **Overlay** — in-game HUD overlay with live data, including an on-foot exobiology sampling assistant (live clonal-colony distance meter while collecting samples); click-through when it isn't the active window, so it never steals the cursor or your clicks from the game; open a second overlay with its own view, and choose which modes appear in the overlay menu
 - **Friends** — find other commanders by name, send/accept friend requests
 - **Avatar** — set a small profile picture shown next to your name (on the main screen and in Friends), visible to everyone after approval
 - **Colonisation** — track your construction projects (system, station, progress, remaining commodities); share projects with friends and see theirs in a focus panel
 - **Colonisation helper / reservations** — reserve a quantity of a commodity for a friend's build so they get notified that you're bringing it ("X is helping with N units"); reservations are pure coordination and never alter the official remaining amount
 - **CAPI** — Frontier API integration; signing in is required to use the app (token management in Settings)
+- **Automatic updates** — when a new version is required, the app downloads and installs it itself and restarts (your settings are kept)
 - **Background running** — optionally start with Windows and minimize to the system tray, so the client keeps monitoring quietly in the background
 - **Data consent & privacy** — a clear first-run notice explains what the app reads (your game journal files) and what it shares with the community, and what it never touches (passwords or sign-in details); you can request deletion of your personal data from Settings
 
@@ -51,6 +52,8 @@ Download **`gezenguz-ed-monitor-client-full.zip`** from the [Releases](https://g
 3. Run `start_client_normal.bat`
 
 > Use `start_client_debug.bat` instead if something goes wrong: it keeps the console open and shows errors.
+
+**Updating:** from v1.8 on, the app updates itself when a new version is required. Coming from v1.7, install v1.8 once manually: close the app (tray icon > Exit) and extract the new zip over your existing folder. Your settings and saved plans are kept.
 
 **First run:**
 1. Enter your Commander name

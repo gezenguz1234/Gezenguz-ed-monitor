@@ -1,8 +1,8 @@
-# Gezenguz ED Monitor v1.8
+# Gezenguz ED Monitor v1.9
 
 Elite Dangerous companion app — multi-commander journal tracking, exploration, nav route, leaderboards, and more.
 
-[![Version](https://img.shields.io/badge/version-1.8-orange.svg)](https://github.com/gezenguz/gezenguz-ed-monitor)
+[![Version](https://img.shields.io/badge/version-1.9-orange.svg)](https://github.com/gezenguz/gezenguz-ed-monitor)
 [![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red.svg)]()
 
 ---
@@ -53,7 +53,7 @@ Download **`gezenguz-ed-monitor-client-full.zip`** from the [Releases](https://g
 
 > Use `start_client_debug.bat` instead if something goes wrong: it keeps the console open and shows errors.
 
-**Updating:** from v1.8 on, the app updates itself when a new version is required. Coming from v1.7, install v1.8 once manually: close the app (tray icon > Exit) and extract the new zip over your existing folder. Your settings and saved plans are kept.
+**Updating:** from v1.8 on, the app updates itself when a new version is required. Coming from v1.7 or older, install the latest version once manually: close the app (tray icon > Exit) and extract the new zip over your existing folder. Your settings and saved plans are kept.
 
 **First run:**
 1. Enter your Commander name

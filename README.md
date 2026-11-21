@@ -1,8 +1,8 @@
-# Gezenguz ED Monitor v1.9
+# Gezenguz ED Monitor v1.10
 
 Elite Dangerous companion app — multi-commander journal tracking, exploration, nav route, leaderboards, and more.
 
-[![Version](https://img.shields.io/badge/version-1.9-orange.svg)](https://github.com/gezenguz/gezenguz-ed-monitor)
+[![Version](https://img.shields.io/badge/version-1.10-orange.svg)](https://github.com/gezenguz1234/Gezenguz-ed-monitor/releases)
 [![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red.svg)]()
 
 ---
@@ -14,7 +14,11 @@ Elite Dangerous companion app — multi-commander journal tracking, exploration,
 - **Exploration tracking** — high-value body detection, exobiology, FSS/DSS data
 - **Nav route** — next systems in route with scoopable star indicators
 - **Mining tracker** — prospector feed, session totals, hotspot data
-- **Outfitting** — ship engineering planner: per-module material and engineer requirements (including Merc Coin modifications and their Merc coin cost), with one-click export to EDSY
+- **Outfitting** — ship engineering planner: per-module material and engineer requirements (including Merc Coin modifications and their Merc coin cost), with one-click export to EDSY; it can also use modules you already own (stored or fitted on your other ships) and leave them out of the materials and the engineer route
+- **Ships & Stored Modules** — all your ships with their location, modules and engineering, and all your stored modules with location, transfer cost and value; plus a view of the ship you are currently flying
+- **Pin planner** — record the blueprint you pinned at each engineer and see what you can engineer remotely; the Outfitting planner skips that engineering
+- **Fleet Carrier** — your own carrier at a glance: location and jump countdown, tritium, balance, upkeep, capacity, services, cargo and market orders, locker and route history
+- **Squadron** — your squadron overview, members, bank and Squadron Carrier
 - **Tech Broker** — module calculator: pick Human/Guardian tech-broker modules and see the total material cost against your current stock, plus the nearest brokers to unlock them; modules you have already unlocked are marked and left out of the requirement
 - **Loadout** — Odyssey suit & weapon planner with per-grade stats and modification effects
 - **Materials "Where to find"** — click any material for its sources, plus crystalline shard / brain tree systems
@@ -24,7 +28,7 @@ Elite Dangerous companion app — multi-commander journal tracking, exploration,
 - **Community Goals** — progress tracking per commander
 - **HGE sightings** — high-grade emission logging by material
 - **Market prices & trade routes** — commodity tracking across stations, best profit routes, and high-demand goods
-- **Overlay** — in-game HUD overlay with live data, including an on-foot exobiology sampling assistant (live clonal-colony distance meter while collecting samples); click-through when it isn't the active window, so it never steals the cursor or your clicks from the game; open a second overlay with its own view, and choose which modes appear in the overlay menu
+- **Overlay** — in-game HUD overlay with live data, including an on-foot exobiology sampling assistant (live clonal-colony distance meter while collecting samples); click-through when it isn't the active window, so it never steals the cursor or your clicks from the game; open a second overlay with its own view, and choose which modes appear in the overlay menu; a Fleet Carrier mode shows the jump countdown and live cargo loading
 - **Friends** — find other commanders by name, send/accept friend requests
 - **Avatar** — set a small profile picture shown next to your name (on the main screen and in Friends), visible to everyone after approval
 - **Colonisation** — track your construction projects (system, station, progress, remaining commodities); share projects with friends and see theirs in a focus panel

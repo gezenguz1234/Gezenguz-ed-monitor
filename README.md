@@ -66,7 +66,7 @@ Download **`gezenguz-ed-monitor-client-full.zip`** from the [Releases](https://g
 
 Questions, ideas, or bug reports? Join the Discord — that's the best place to reach me:
 
-**[discord.gg/JhhfkQgPS](https://discord.gg/JhhfkQgPS)**
+**[discord.gg/U2WBgf6p86](https://discord.gg/U2WBgf6p86)**
 
 ---
 

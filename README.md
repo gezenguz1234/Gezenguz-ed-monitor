@@ -1,8 +1,8 @@
-# Gezenguz ED Monitor v1.11
+# Gezenguz ED Monitor v1.12
 
 Elite Dangerous companion app — multi-commander journal tracking, exploration, nav route, leaderboards, and more.
 
-[![Version](https://img.shields.io/badge/version-1.11-orange.svg)](https://github.com/gezenguz1234/Gezenguz-ed-monitor/releases)
+[![Version](https://img.shields.io/badge/version-1.12-orange.svg)](https://github.com/gezenguz1234/Gezenguz-ed-monitor/releases)
 [![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red.svg)]()
 
 ---

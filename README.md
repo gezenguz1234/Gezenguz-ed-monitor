@@ -1,8 +1,8 @@
-# Gezenguz ED Monitor v1.10
+# Gezenguz ED Monitor v1.11
 
 Elite Dangerous companion app — multi-commander journal tracking, exploration, nav route, leaderboards, and more.
 
-[![Version](https://img.shields.io/badge/version-1.10-orange.svg)](https://github.com/gezenguz1234/Gezenguz-ed-monitor/releases)
+[![Version](https://img.shields.io/badge/version-1.11-orange.svg)](https://github.com/gezenguz1234/Gezenguz-ed-monitor/releases)
 [![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red.svg)]()
 
 ---
@@ -16,7 +16,7 @@ Elite Dangerous companion app — multi-commander journal tracking, exploration,
 - **Mining tracker** — prospector feed, session totals, hotspot data
 - **Outfitting** — ship engineering planner: per-module material and engineer requirements (including Merc Coin modifications and their Merc coin cost), with one-click export to EDSY; it can also use modules you already own (stored or fitted on your other ships) and leave them out of the materials and the engineer route
 - **Ships & Stored Modules** — all your ships with their location, modules and engineering, and all your stored modules with location, transfer cost and value; plus a view of the ship you are currently flying
-- **Pin planner** — record the blueprint you pinned at each engineer and see what you can engineer remotely; the Outfitting planner skips that engineering
+- **Pin planner** — a tab in the Engineers window: record the blueprint you pinned at each engineer and see what you can engineer remotely; the Outfitting planner skips that engineering
 - **Fleet Carrier** — your own carrier at a glance: location and jump countdown, tritium, balance, upkeep, capacity, services, cargo and market orders, locker and route history
 - **Squadron** — your squadron overview, members, bank and Squadron Carrier
 - **Tech Broker** — module calculator: pick Human/Guardian tech-broker modules and see the total material cost against your current stock, plus the nearest brokers to unlock them; modules you have already unlocked are marked and left out of the requirement
